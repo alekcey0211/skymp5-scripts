@@ -1,13 +1,14 @@
 <?xml version='1.0'?>
 <PapyrusProject xmlns="PapyrusProject.xsd" 
-    Output="C:/projects/skymp5-server/data/Scripts" 
+    Output="C:/Games/skymp-server-lite/data/scripts" 
     Flags="TESV_Papyrus_Flags.flg" 
     Game="sse"
-    Optimize="false" 
+    Optimize="false"
     Release="false" 
     Final="false">
     <Imports>
         <Import>.\Source\Scripts</Import>
+        <Import>C:/Games/skymp-server-lite/data/scripts/Source</Import>
     </Imports>
     <Folders>
         <Folder>.\Source\Scripts</Folder>
