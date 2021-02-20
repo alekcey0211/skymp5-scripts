@@ -24,3 +24,5 @@ String Function GetGlobalStorageValue(String key) global native
 Function SendChatMessage(Actor ac, String msg) global
     M.ExecuteUiCommand(ac, "", None, None, msg)
 EndFunction
+
+Perk Function AsPerk(Form form) global native
